@@ -78,32 +78,32 @@ Such API gets translated into the following abstractions:
 
 | Topic | Name                                                |
 | ----- | --------------------------------------------------- |
-| goal  | /hrim_actuation_servomotor_XXXXXXXXXXXX/goal_axis1  |
-| goal  | /hrim_actuation_servomotor_XXXXXXXXXXXX/goal_axis2  |
-| state | /hrim_actuation_servomotor_XXXXXXXXXXXX/state_axis1 |
-| state | /hrim_actuation_servomotor_XXXXXXXXXXXX/state_axis2 |
+| goal  | /hrim_actuator_rotaryservo_XXXXXXXXXXXX/goal_axis1  |
+| goal  | /hrim_actuator_rotaryservo_XXXXXXXXXXXX/goal_axis2  |
+| state | /hrim_actuator_rotaryservo_XXXXXXXXXXXX/state_axis1 |
+| state | /hrim_actuator_rotaryservo_XXXXXXXXXXXX/state_axis2 |
 
 <br>
 
 | Service       | Name                                                      |
 | ------------- | --------------------------------------------------------- |
-| specs         | /hrim_actuation_servomotor_XXXXXXXXXXXX/specs             |
-| enable servo  | /hrim_actuation_servomotor_XXXXXXXXXXXX/enable            |
-| disable servo | /hrim_actuation_servomotor_XXXXXXXXXXXX/disable           |
-| clear fault   | /hrim_actuation_servomotor_XXXXXXXXXXXX/clear_fault       |
-| stop          | /hrim_actuation_servomotor_XXXXXXXXXXXX/stop_axis1        |
-| stop          | /hrim_actuation_servomotor_XXXXXXXXXXXX/stop_axis2        |
-| close brake   | /hrim_actuation_servomotor_XXXXXXXXXXXX/close_brake_axis1 |
-| close brake   | /hrim_actuation_servomotor_XXXXXXXXXXXX/close_brake_axis2 |
-| open brake    | /hrim_actuation_servomotor_XXXXXXXXXXXX/open_brake_axis1  |
-| open brake    | /hrim_actuation_servomotor_XXXXXXXXXXXX/open_brake_axis2  |
+| specs         | /hrim_actuator_rotaryservo_XXXXXXXXXXXX/specs             |
+| enable servo  | /hrim_actuator_rotaryservo_XXXXXXXXXXXX/enable            |
+| disable servo | /hrim_actuator_rotaryservo_XXXXXXXXXXXX/disable           |
+| clear fault   | /hrim_actuator_rotaryservo_XXXXXXXXXXXX/clear_fault       |
+| stop          | /hrim_actuator_rotaryservo_XXXXXXXXXXXX/stop_axis1        |
+| stop          | /hrim_actuator_rotaryservo_XXXXXXXXXXXX/stop_axis2        |
+| close brake   | /hrim_actuator_rotaryservo_XXXXXXXXXXXX/close_brake_axis1 |
+| close brake   | /hrim_actuator_rotaryservo_XXXXXXXXXXXX/close_brake_axis2 |
+| open brake    | /hrim_actuator_rotaryservo_XXXXXXXXXXXX/open_brake_axis1  |
+| open brake    | /hrim_actuator_rotaryservo_XXXXXXXXXXXX/open_brake_axis2  |
 
 <br>
 
 | Action                | Name                                                     |
 | --------------------- | -------------------------------------------------------- |
-| goal joint trajectory | /hrim_actuation_servomotor_XXXXXXXXXXXX/trajectory_axis1 |
-| goal joint trajectory | /hrim_actuation_servomotor_XXXXXXXXXXXX/trajectory_axis2 |
+| goal joint trajectory | /hrim_actuator_rotaryservo_XXXXXXXXXXXX/trajectory_axis1 |
+| goal joint trajectory | /hrim_actuator_rotaryservo_XXXXXXXXXXXX/trajectory_axis2 |
 
 <br>
 
