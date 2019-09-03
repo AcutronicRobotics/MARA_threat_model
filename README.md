@@ -2,8 +2,6 @@
 
 *Developed in collaboration with [Alias Robotics](http://aliasrobotics.com).*
 
-<a href="http://www.acutronicrobotics.com"><img src="https://acutronicrobotics.com/assets/images/AcutronicRobotics_logo.jpg" align="left" hspace="8" vspace="2" width="200"></a>
-
 **A threat model is a structured representation of all the information that affects the security of a robot in a particular  application**. Threat modeling allows capturing, organizing, and analyzing all of this information while enabling informed decision-making about application security risks. In addition to producing a model, threat modeling allows to identify, enumerate and prioritize structural vulnerabilities – all from a hypothetical attacker’s point of view.
 
 When applied to robotics, the ultimate purpose of threat modeling is to provide manufacturers, integrators and end-users with a systematic analysis of the probable attacker’s profile, the most likely attack vectors, and the assets most desired by an attacker. Typically, threat models answers the following questions:
